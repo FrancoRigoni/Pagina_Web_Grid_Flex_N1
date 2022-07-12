@@ -825,6 +825,10 @@ footer h5 span {
         height: 190px;
     }
 
+    main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links .botones a {
+        padding: 0.8rem 0.3rem;
+    }
+
     main .main__contactanos-info {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
