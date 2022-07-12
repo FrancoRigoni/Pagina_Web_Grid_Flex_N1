@@ -1,0 +1,860 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav .img-logo h3{
+}
+
+nav .nav__Links-anclas a {
+    color:black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+nav .nav__Links-anclas_movil {
+    display:none
+}
+
+nav .nav__redes-sociales a {
+    margin-right: 0.8rem;
+}
+
+nav .nav__redes-sociales i{
+    color:black;
+    font-size: 1rem;
+}
+
+nav .nav__movil {
+    display:none;
+}
+
+main .division_presentacion {
+    
+}
+
+main .main__presentacion {
+    background: #F5DF4E;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .animacion1 {
+    display: inline-block;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .animacion1 h1 {
+    overflow: hidden;
+    border-right: .15em solid rgba(128, 128, 128, 0.282);
+    font-size: 3rem;
+    width:0;
+    animation: pasos 4s forwards;
+    white-space: nowrap;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos p {
+    margin:0.5rem 0 1.5rem 0;
+    font-weight: 400;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links{
+    display:flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links .botones {
+    width: 45%;
+}
+
+
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links .botones a {
+    display: inline-block;
+    background-color: black;
+    text-decoration: none;
+    color:white;
+    padding: 1rem 0;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links .boton_sinimagen a{
+    background-color: transparent;
+    color:black;
+    text-decoration: underline;
+}
+
+main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links .boton_sinimagen i {
+    margin-left: 0.3rem;
+}
+
+/*Presentacion Foto*/
+
+/* main .main__presentacion .main__presentacion__foto-personal {
+    width: 30%;
+} */
+
+main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    overflow: hidden;
+    width: 300px;
+}
+
+main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco img{
+    display:block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+/*Segundo Section*/
+
+main .main__acerca-de-mi {
+    padding: 4rem 0;
+}
+
+main .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+main .main_Titulo {
+    text-align: center;
+}
+
+main .main_Titulo span {
+    background-color: #F5DF4E;
+    padding: 0.2rem 0.5rem;
+}
+
+main .main_Titulo .etiqueta_resaltada {
+    margin: 2rem 0
+}
+
+main .main_Titulo h2 {
+    margin : 1rem 0 2rem 0
+}
+
+
+main .main_division_acerca_de_mi {
+    display: flex;
+    gap: 6rem;
+}
+
+main .Acerca-de-mi-texto {
+    width: 60%;
+}
+
+main .Acerca-de-mi-texto h2{
+    font-weight: 400;
+}
+
+main .Acerca-de-mi-texto p {
+    margin-top:1rem;
+    line-height: 1.5rem;
+    font-style: italic;
+    
+}
+
+main .Acerca-de-mi-texto span{
+    padding: 3px 0;
+    border-bottom: 3px solid #F5DF4E;
+    font-weight: 600;
+}
+
+
+/* main .main__Numero_año {
+
+} */
+
+main .main__Numero_año .redondo {
+    background-color: #F5DF4E;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+}
+
+main .main__Numero_año .años {
+    position: absolute;
+    text-align: center;
+}
+
+main .main__Numero_año .años h3 {
+    font-size: 6rem;
+    color: #4C4D4D;
+}
+
+main .main__Numero_año .años_de_experiencia {
+    white-space: nowrap;
+    margin-top: 1rem;
+}
+
+main .main__contactanos-info {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+main .main__contactanos-info span {
+    color:#798188;
+}
+
+main .main__contactanos-info p {
+    margin-top: 0.3rem;
+    font-weight: 600;
+}
+
+/*Section 3 */ 
+
+main .lo_que_hago {
+    background-color: #F8F9FA;
+    padding: 1rem 0;
+}
+
+main .lo_que_hago .lo_que_hago_titulo {
+    text-align: center;
+}
+
+
+main .lo_que_hago .lo_que_hago_titulo .titulo_span {
+    background-color: #F5DF4E;
+    padding: 0.2rem 0.5rem;
+    margin: 5rem 0 1rem 0;
+    display: inline-block;
+}
+
+main .lo_que_hago_ofrecer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    text-align: center;
+    width: 75%;
+    margin: 4rem auto;
+    gap: 3rem;
+
+}
+
+main .lo_que_hago_ofrecer div i {
+    font-size: 2.3rem;
+    color:#F5DF4E
+}
+
+main .lo_que_hago_ofrecer_titulo .titulo_del_Item_grid{
+    
+}
+
+main .lo_que_hago_ofrecer div h3 {
+    margin: 1rem 0;
+}
+
+main .lo_que_hago_ofrecer div p {
+    color:#91979E;
+}
+
+main .Resumen_titulo_principal {
+    text-align: center;
+    margin:0 0 2rem 0;
+}
+
+main .un_resumen_de_mi_cv {
+    width: 80%;
+    margin:2rem auto;
+}
+
+main .un_resumen_de_mi_cv .titulo_span {
+    margin:1rem 0;
+    background-color: #F5DF4E;
+    padding: 0.2rem 0.5rem;
+    margin: 4rem 0 1rem 0;
+    display: inline-block;
+}
+
+main .Contenedor_principal_cv {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main .Contenedor_principal_cv .contenedor1_titulo {
+    flex-basis: 50%;
+    
+}
+
+main .Contenedor_principal_cv .contenedor2_titulo {
+    flex-basis: 50%;
+}
+
+main .Contenedor_principal_cv .contenedor1_titulo .contenedor1 {
+    padding: 0 0 0 1rem;
+    border-left: 2px solid #F5DF4E;
+}
+main .Contenedor_principal_cv .contenedor2_titulo .contenedor2 {
+    padding: 0 0 0 1rem;
+    border-left: 2px solid #F5DF4E;
+}
+
+main .Contenedor_principal_cv .contenedor1_titulo .contenedor1 div,
+main .Contenedor_principal_cv .contenedor2_titulo .contenedor2 div {
+    min-height: 140px;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+main .Contenedor_principal_cv .contenedor2_titulo .contenedor2 div span,
+main .Contenedor_principal_cv .contenedor1_titulo .contenedor1 div span {
+    display: block;
+    margin:0.5rem 0;
+    font-size: 0.9rem;
+}
+
+main .Contenedor_principal_cv .contenedor1_titulo .contenedor1 div h4,
+main .Contenedor_principal_cv .contenedor2_titulo .contenedor2 div h4 {
+    margin:0.5rem 0;
+}
+
+main .Contenedor_principal_cv .contenedor2_titulo .contenedor2 div p,
+main .Contenedor_principal_cv .contenedor1_titulo .contenedor1 div p  {
+    line-height: 1.3rem;
+    color:gray;
+    padding: 0.3rem 0;
+}
+
+main .Skills {
+    width: 80%;
+    margin: auto;
+}
+
+main .Skills_habilidades_content {
+    display:flex;
+    justify-content: space-between;    
+    margin: auto;
+    gap: 2rem;
+}
+
+main .Skills_habilidades_items {
+    width: 100%;
+    margin:1.5rem 0
+}
+
+main .Skills_habilidades_items .informacion {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+main .Skills_habilidades_items .progreso {
+    height: 8px;
+    width: 100%;
+    background-color: #E9ECEF;
+    border-radius: 0.7rem;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item1,
+main .Skills_habilidades_items .progreso .nivel-item2,
+main .Skills_habilidades_items .progreso .nivel-item3,
+main .Skills_habilidades_items .progreso .nivel-item4,
+main .Skills_habilidades_items .progreso .nivel-item5,
+main .Skills_habilidades_items .progreso .nivel-item6 {
+    height: 8px;
+    background-color: #F5DF4E;
+    border-radius: 0.7rem;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item1{
+    width: 50%;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item2 {
+    width: 10%;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item3 {
+    width: 0%;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item4 {
+    width: 10%;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item5 {
+    width: 1%;
+}
+
+main .Skills_habilidades_items .progreso .nivel-item6 {
+    width: 0%;
+}
+
+main .Skills .curriculum {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin:3rem 0;
+}
+
+main .Skills .curriculum div {
+    width: 140px;
+}
+
+main .Skills .curriculum div a{
+    border:1px solid black;
+    display: block;
+    width: 100%;
+    padding:0.8rem 0;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    text-align: center;
+    transition: all 1s;
+}
+
+main .Skills .curriculum div a:hover{
+    color:white;
+    background-color: black;
+}
+
+main .Recientes_proyectos {
+    width: 100%;
+    padding: 1.3rem 0;
+    background-color: #F8F9FA;
+}
+
+main .Recientes_proyectos .titulo {
+    text-align: center;
+}
+
+main .Recientes_proyectos .titulo span {
+    background-color: #F5DF4E;
+    padding: 0.2rem 0.5rem;
+    margin: 5rem 0 1rem 0;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+main .Recientes_proyectos .titulo h1 {
+    font-size: 2.2rem;
+}
+
+main .Proyectos_div_nav_galeria {
+    margin:2rem 0 3rem 0;
+}
+
+main .Proyectos_div_nav_galeria .nav {
+    text-align: center;
+    margin:1rem 0 2rem 0;
+}
+
+main .Proyectos_div_nav_galeria .nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color:#B9BABA;
+    padding : 0.4rem 0 0.3rem 0;
+    transition: all 0.1s;
+    display: inline-block;
+    border-bottom:3px solid #F8F9FA;
+    
+}
+
+main .Proyectos_div_nav_galeria .nav a:hover {
+    border-bottom:3px solid #F5DF4E;
+    
+    color:black;
+}
+
+main .Proyectos_div_nav_galeria .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 70%;
+    margin: auto;
+    
+}
+
+main .Proyectos_div_nav_galeria .galeria div {
+    height: 200px;
+    overflow: hidden;
+}
+
+main .Proyectos_div_nav_galeria .galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: left;
+}
+
+main .contactanos {
+    background-color: #F9E24F;
+    padding:4rem 0;
+}
+
+main .contactanos .contenedor-flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin:auto;
+    gap: 4rem;
+}
+
+main .contactanos .contenedor-flex .Info_sobre_mi {
+    width: 35%;
+}
+
+main .contactanos .contenedor-flex .Info_sobre_mi p{
+    margin: 2.5rem 0;
+    line-height: 1.5rem;
+}
+
+main .contactanos .contenedor-flex .Info_sobre_mi .adresss address {
+    margin:0.4rem 0
+}
+
+main .contactanos .contenedor-flex .Info_sobre_mi .Redes_sociales {
+    margin:2.7rem 0
+}
+
+main .contactanos .contenedor-flex .Info_sobre_mi .Redes_sociales a {
+    margin-right: 1rem;
+}
+
+main .contactanos .contenedor-flex .Info_sobre_mi .Redes_sociales i {
+    font-size: 1.5rem;
+    color:#4d555a;
+    
+}
+
+main .contactanos .contenedor-flex .Formulario_cont {
+    width: 45%;
+}
+main .contactanos .contenedor-flex .Formulario_cont h1 {
+    text-align: center;
+    padding: 0 0 1.5rem 0;
+}
+
+main .contactanos .contenedor-flex .Formulario_cont .Form label{
+    display: block;
+    margin:1.5rem 0 0.9rem 0;
+}
+main .contactanos .contenedor-flex .Formulario_cont .Form input,
+main .contactanos .contenedor-flex .Formulario_cont .Form textarea {
+    width: 100%;
+    padding: 0.3rem 0;
+    background-color: #F9E24F;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid #D4C144;
+    color:#476885;
+    resize: none;
+}
+
+main .contactanos .contenedor-flex .Formulario_cont .Form input:focus,
+main .contactanos .contenedor-flex .Formulario_cont .Form textarea {
+    background:#d4c14463;
+    border-radius: 2px;
+    color:#476885
+}
+
+main .contactanos .contenedor-flex .Formulario_cont .Form textarea {
+    height: 100px;
+}
+
+main .contactanos .contenedor-flex .Formulario_cont .Form button {
+    padding: 0.8rem 1.7rem;
+    background-color: #212529;
+    color:white;
+    border:none;
+    margin:1rem auto;
+    font-weight: 600;
+    display: block;
+}
+
+main .contactanos .contenedor-flex .Formulario_cont .Form button i {
+    padding-left: 0.5rem;
+}
+
+
+footer {
+    display:flex;
+    padding: 3rem 0;
+    justify-content: space-around;
+    background-color: #111418;
+    color:white;
+}
+
+footer h5 span {
+    color: #F5DF4E;
+    text-decoration: underline;
+}
+
+
+
+
+
+@keyframes pasos {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@media (max-width: 830px) {
+    main .main__presentacion {
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    main .main__presentacion__foto-personal {
+        order: -1;
+    }
+    main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco {
+        width: 200px;
+    }
+
+    main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco img{
+        width: 200px;
+        height: 200px;
+    }
+
+    main .main__presentacion .division_presentacion1 .cuadro__textos {
+        text-align: center;
+    }
+
+    
+
+    nav .nav__Links-anclas {
+        display:none;
+    }
+
+    nav .nav__movil {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    nav .nav__redes-sociales {
+        display: flex;
+        align-items: center;
+    }
+
+   
+
+    nav .nav__movil:hover + .nav__Links-anclas_movil {
+        display:flex;
+        flex-direction: column;
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 50%;
+        height: 100vh;
+        background-color: greenyellow;
+    }
+
+    nav .nav__movil i{
+        font-size: 20px;
+    }
+
+    .nav__Links-anclas_movil {
+        text-align: center;
+    }
+
+    .nav__Links-anclas_movil h3 {
+        padding: 10px 0;
+        background-color: rgb(6, 6, 6);
+        color: wheat;
+    }
+    /*Nav menu*/
+    /* .nav__Links-anclas_movil a {
+        display:block;
+        text-decoration: none;
+        text-align: center;
+        background-color: burlywood;
+        width: 90%;
+        margin: 0.6rem auto;
+        color:black;
+        padding: 0.5rem 0;
+        overflow: auto;
+        border: 1px solid black
+    }
+
+    .nav__Links-anclas_movil a:active {
+        background-color: red;
+    } */
+
+    main .main__acerca-de-mi .contenedor {
+        width: 80%;
+    }
+    
+    main .main_division_acerca_de_mi {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    main .Acerca-de-mi-texto {
+        width: 100%;
+    }
+
+    main .main__Numero_año {
+        order: 1;
+    }
+
+    main .main__Numero_año .redondo {
+        width: 120px;
+    }
+
+    main .main__contactanos-info {
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr;
+        margin-top:2rem;
+    }
+
+    main .lo_que_hago_ofrecer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 80%;
+    }
+
+    main .Contenedor_principal_cv {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    main .Contenedor_principal_cv .contenedor2_titulo {
+        margin-top: 1.5rem;
+    }
+
+    main .Proyectos_div_nav_galeria .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    main .contactanos .contenedor-flex {
+        flex-direction: column;
+        justify-content: center;
+        gap:0;
+    }
+
+    main .contactanos .contenedor-flex .Info_sobre_mi {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .contactanos .contenedor-flex .Info_sobre_mi .Redes_sociales {
+        text-align: center;
+    }
+
+    main .contactanos .contenedor-flex .Info_sobre_mi .Redes_sociales a {
+        margin: 0 0.5rem
+    }
+
+    main .contactanos .contenedor-flex .Formulario_cont {
+        width: 90%;
+        margin:auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap:1rem;
+    }
+   
+
+
+}
+
+@media (max-width: 440px) {
+    main .main__presentacion .division_presentacion1 .cuadro__textos h2 {
+        font-size: 1rem !important;
+    }
+    main .main__presentacion .division_presentacion1 .cuadro__textos .animacion1 .texto_animacion {
+        font-size: 2rem;
+    }
+    main .main__presentacion {
+        height: 400px;
+        padding: 1rem 0;
+    }
+    main .main__presentacion .division_presentacion1 .cuadro__textos .contenedor_links .botones a {
+        font-size: 0.8rem;
+    }
+
+    main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco{
+        width: 190px;
+        height: 190px;
+    }
+
+    main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco  img {
+        width: 190px;
+        height: 190px;
+    }
+
+    main .main__contactanos-info {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    main .lo_que_hago_ofrecer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 90%;
+    }
+
+    main .Skills_habilidades_content {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    main .Skills_habilidades_items {
+        margin: 0 0;
+    }
+
+    main .Proyectos_div_nav_galeria .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 95%;
+    }
+}
+
+@media (max-width: 280px) {
+    main .main__presentacion .division_presentacion1 .cuadro__textos .animacion1 .texto_animacion {
+        font-size: 1.5em;
+    }
+}
+
