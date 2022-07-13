@@ -14,6 +14,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 nav .img-logo h3{
@@ -137,7 +140,7 @@ main .main__presentacion .main__presentacion__foto-personal .cuadro_blanco img{
 /*Segundo Section*/
 
 main .main__acerca-de-mi {
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 main .contenedor {
@@ -246,18 +249,19 @@ main .main__contactanos-info p {
 
 main .lo_que_hago {
     background-color: #F8F9FA;
-    padding: 1rem 0;
+    padding: 6rem 0;
 }
 
 main .lo_que_hago .lo_que_hago_titulo {
     text-align: center;
+    padding: 1rem 0 5rem 0;
 }
 
 
 main .lo_que_hago .lo_que_hago_titulo .titulo_span {
     background-color: #F5DF4E;
     padding: 0.2rem 0.5rem;
-    margin: 5rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     display: inline-block;
 }
 
@@ -268,7 +272,7 @@ main .lo_que_hago_ofrecer {
     justify-content: space-between;
     text-align: center;
     width: 75%;
-    margin: 4rem auto;
+    margin: auto;
     gap: 3rem;
 
 }
@@ -296,15 +300,15 @@ main .Resumen_titulo_principal {
 }
 
 main .un_resumen_de_mi_cv {
-    width: 80%;
-    margin:2rem auto;
+    padding: 6rem 0;
+    margin:auto;
 }
 
 main .un_resumen_de_mi_cv .titulo_span {
     margin:1rem 0;
     background-color: #F5DF4E;
     padding: 0.2rem 0.5rem;
-    margin: 4rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     display: inline-block;
 }
 
@@ -312,6 +316,8 @@ main .Contenedor_principal_cv {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    width: 80%;
+    margin: auto;
 }
 
 main .Contenedor_principal_cv .contenedor1_titulo {
@@ -425,7 +431,6 @@ main .Skills_habilidades_items .progreso .nivel-item6 {
 main .Skills .curriculum {
     display: flex;
     justify-content: center;
-    height: 100px;
     margin:3rem 0;
 }
 
@@ -452,7 +457,7 @@ main .Skills .curriculum div a:hover{
 
 main .Recientes_proyectos {
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 6rem 0;
     background-color: #F8F9FA;
 }
 
@@ -463,9 +468,8 @@ main .Recientes_proyectos .titulo {
 main .Recientes_proyectos .titulo span {
     background-color: #F5DF4E;
     padding: 0.2rem 0.5rem;
-    margin: 5rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     display: inline-block;
-    font-size: 0.9rem;
 }
 
 main .Recientes_proyectos .titulo h1 {
@@ -473,7 +477,7 @@ main .Recientes_proyectos .titulo h1 {
 }
 
 main .Proyectos_div_nav_galeria {
-    margin:2rem 0 3rem 0;
+    margin:2rem 0 0 0;
 }
 
 main .Proyectos_div_nav_galeria .nav {
@@ -523,7 +527,7 @@ main .Proyectos_div_nav_galeria .galeria img {
 
 main .contactanos {
     background-color: #F9E24F;
-    padding:4rem 0;
+    padding:8rem 0;
 }
 
 main .contactanos .contenedor-flex {
@@ -717,6 +721,10 @@ footer h5 span {
         background-color: red;
     } */
 
+    main .main__acerca-de-mi {
+        padding: 3rem 0;
+    }
+
     main .main__acerca-de-mi .contenedor {
         width: 80%;
     }
@@ -745,15 +753,23 @@ footer h5 span {
         margin-top:2rem;
     }
 
+    main .lo_que_hago {
+        padding: 3rem 0;
+    }
+
     main .lo_que_hago_ofrecer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         width: 80%;
     }
 
+    main .un_resumen_de_mi_cv {
+        padding:3rem 0;
+    }
+
     main .Contenedor_principal_cv {
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
 
@@ -761,9 +777,17 @@ footer h5 span {
         margin-top: 1.5rem;
     }
 
+    main .Recientes_proyectos {
+        padding: 3rem 0;
+    }
+
     main .Proyectos_div_nav_galeria .galeria {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+    }
+
+    main .contactanos {
+        padding: 3rem 0;
     }
 
     main .contactanos .contenedor-flex {
@@ -788,6 +812,10 @@ footer h5 span {
     main .contactanos .contenedor-flex .Formulario_cont {
         width: 90%;
         margin:auto;
+    }
+
+    main .contactanos .contenedor-flex .Formulario_cont .Form button {
+        margin: 1rem auto 0 auto;
     }
 
     footer {
