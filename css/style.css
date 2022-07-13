@@ -781,9 +781,9 @@ footer h5 span {
         margin-top: 1.5rem;
     }
 
-    main .Recientes_proyectos {
-        padding: 3rem 0;
-    }
+    /* main .Recientes_proyectos {
+        
+    } */
 
     main .Proyectos_div_nav_galeria .galeria {
         grid-template-columns: 1fr 1fr;
@@ -791,7 +791,7 @@ footer h5 span {
     }
 
     main .contactanos {
-        padding: 3rem 0;
+        padding: 6.9rem 0;
     }
 
     main .contactanos .contenedor-flex {
