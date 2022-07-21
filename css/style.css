@@ -162,16 +162,20 @@ main .color-switch_Ajuste {
     position: absolute;
     top:0;
     left: -60px;
-    padding: 10px 20px;
+    padding: 10px 14px;
     background-color: rgb(219, 218, 218);
-    font-size: 20px;
+    font-size: 2rem;
     cursor: pointer;
     border-radius: 10px 0 0 10px;
 }
 
+.color-switch_Ajuste i {
+    animation: rotate 2s infinite linear;
+}
+
 main .color-switch h3 {
     color: #231955;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     font-size: 1.4rem;
 }
 
@@ -195,6 +199,8 @@ main .color-switch_Ajuste-Botones .botones-switch {
 main .color-switch_Ajuste-Botones .botones-switch:hover {
     transform: scale(1.5);
 }
+
+
 /*Segundo Section*/
 
 main .main__acerca-de-mi {
@@ -688,7 +694,14 @@ footer h5 span {
 }
 
 
-
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
 
 
 @keyframes pasos {
