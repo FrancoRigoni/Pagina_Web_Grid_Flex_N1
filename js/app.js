@@ -30,7 +30,7 @@ Ajustes[0].addEventListener("click", function() {
 // El Js-color del html se cambiara los botones, el texto y la rueda de ajustes.
 
 botones.forEach ((colores, indice) => {
-    console.log(colores)
+    //console.log(colores)
     let guardar = botones[indice].attributes[0].value
     colores.style.background = guardar                 //array[indice]
 
